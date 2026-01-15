@@ -55,7 +55,7 @@ public class LobbyScreen {
 
     private void handleMessage(String msg) {
         if (msg.equals("START_GAME")) {
-            new GameScreen(stage, client);
+            new GameScreen(stage);
         }
     }
 }
